@@ -343,7 +343,7 @@
     max-width: 691px;
     margin-right: 15px;
 }
-                                                        /*media query*/
+                                                         /*media query*/
 @media (max-width: 750px){
     .section-second__clients{
         flex-direction: column;
@@ -359,6 +359,17 @@
     .main-footer__content{
         flex-direction: column;
     }
+    .main-nav-item-dropdownmenu:hover {
+      background-color: var(--white);
+      box-shadow: inset 0 -5px 0 var(--blue);
+  }
+  .shadbox
+  {
+    box-shadow: inset 0 5px 0 var(--blue);
+  }
+    .navdrop{
+      padding-top: 40px;
+  }
 }
 @media (max-width: 357px){
     .main-title__wrap{
@@ -369,5 +380,14 @@
     .header-logo__wrap{
         padding: 0;
     }
+}
+@media (max-width: 314px){
+.shadbox1
+{
+box-shadow: inset 0 5px 0 var(--blue);
+}
+.navdrop1{
+  padding-top: 40px;
+}
 }
     
